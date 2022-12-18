@@ -14,4 +14,8 @@ if keyword in string:
 else:
     print(f'The keyword {keyword} does not exist in the text')
     
-input('Please press Enter to Exit the programme')
+#Handling of the program exit
+import sys
+exit_program = input('Press any key to exit')
+if exit_program:
+    sys.exit()
